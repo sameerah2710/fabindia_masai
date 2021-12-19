@@ -1,0 +1,263 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Muli','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+header{
+    background-color: rgb(216, 224, 224);
+    background-color: #f4f2e5 ;
+   border-bottom: 2px solid rgb(216, 208, 208);
+    
+}
+.contact{
+    height: 29px;
+    padding: 4px ;
+    background-color: #8f2c34;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: .4px;
+    line-height: 150%;
+}
+.mainHeader{
+    height: 111px;
+    padding: 25px 50px ;
+}
+.mainHeader>div {
+    height: 61px;
+    display: flex;
+    justify-content:space-between;
+}
+
+#logo{
+    height: 100%;
+    width: 145px;
+}
+.search-box{
+    display: flex;
+    padding-top: 10px;
+}
+input{
+  height:40px;
+  width: 300px;
+  background-color:white;
+  padding: 6px 12px;
+  border: none;
+  
+}
+.searchicon{
+    height: 40px;
+    width: 30px;
+    background-color: white;
+}
+.icons{
+    height: 30px;
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.call-icon{
+    width: 22px;
+    height: 20px;
+    background: transparent;
+}
+.cart-icon{
+    width: 23px;
+    height: 20px;
+    background: transparent;
+}
+nav{
+    height:42px;
+    padding: 0 90px;
+}
+nav ul{
+    color: black;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+}
+nav ul li{
+    padding: 10px 15px;
+    font-size: 13px;
+    font-weight: 300;
+    display: block;
+    
+}
+footer{
+    height: 405px;
+    padding: 30px 0;
+    background-color: #dbd9cd;
+}
+.footer-content{
+display: flex;
+justify-content: space-around;
+margin-bottom: 30px;
+
+}
+.footer-content div ul{
+    list-style: none;
+}
+.footer-content div p {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Unna',serif;margin: 10px 0px;
+}
+.footer-content div ul li{
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 300;
+
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+
+}
+.appstore-icon{
+    width: 122px;
+    height: 36px;
+    margin-bottom: 7px;
+}
+.social-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    margin: 5px;
+}
+.social-icon > img{
+    width: 25px;
+    height: 25px;
+}
+section{
+    background-color: #f4f2e5;
+    padding: 40px 50px;
+}
+.content{
+    height: 600px;
+    background-color: #f9f8f1;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left{
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right{
+    width: 47%;
+    padding-left: 10px;
+}
+.content-image{
+    width: 440px;
+    height: 560px;
+}
+.content-image > img{
+    width: 100%;
+    height: 100%;
+}
+.image-branch{
+    width: 120px;
+    height: 530px;
+    margin-left: 30px;
+}
+.image-branch > div{
+    height: 30%;
+    margin: 15px 0px;
+}
+.image-branch > div >img{
+    width: 100%;
+    height: 100%;
+}
+.product-name{
+    margin: 20px 40px 30px 0px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.outer{
+    width: 31px;
+    height: 31px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 20px 30px 10px ;
+    border-radius: 50%;
+    padding: 3px;
+    border: 1px solid black;
+
+}
+.Color{
+    font-size: 17px;
+    font-weight: bold;
+}
+.product-color{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+}
+.size{
+    display: flex;
+    width: 330px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.size>div{
+    border: 1px solid black;
+    width: 32px;
+    height: 16px;
+    padding: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.mrp{
+    height: 60px;;
+    display: flex;
+    margin: 10px 10px 0 ;
+    align-items: center;
+}
+.price{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.pincode{
+ border: 1px solid black ;
+
+ 
+}
+.check{
+    display: inline;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.cart{
+    
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+    background-color: #e5cc76;
+    color: black;
+    border-radius: 3px;
+    border: none;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+
+

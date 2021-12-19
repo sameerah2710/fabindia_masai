@@ -78,8 +78,9 @@ margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     padding: 30px 50px;
-​
 }
+​
+
 .appstore-icon{
     width: 122px;
     height: 36px;
@@ -219,4 +220,11 @@ select,
   background-color: #e5cc76;
   border: none;
   border-radius: 5px;
+}
+#right>div{
+  display: flex;
+  justify-content: space-around;
+}
+#shop{
+  display: flex;
 }
