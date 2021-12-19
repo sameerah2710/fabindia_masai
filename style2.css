@@ -220,3 +220,10 @@ select,
   border: none;
   border-radius: 5px;
 }
+#right>div{
+  display: flex;
+  justify-content: space-around;
+}
+#shop{
+  display: flex;
+}
