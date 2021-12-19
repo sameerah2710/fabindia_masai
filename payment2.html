@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>2payment</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="style2.css" />
+    <script
+      src="https://kit.fontawesome.com/683b4b40e3.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unna:ital@1&display=swap"
+      rel="stylesheet"
+    />
+
+
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Unna:ital@0;1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+     <a href="home.html">   <img
+          id="imagelogo"
+          src="https://www.fabindia.com/file/v8385693196996654632/general/fab_india_logo.png"
+          alt=""
+        /></a>
+
+        <p><i class="fas fa-phone-alt"></i> +918010488888</p>
+      </div>
+      <hr />
+      <div id="main">
+        <div id="left">
+            <div id="upper">
+              <div>
+                <h3>Login Detail</h3>
+             <a href="signIn.html">  <input id="t" type="submit" value="Change"  /></a> 
+                <hr />
+              </div>
+
+              <br />
+              <hr />
+              <div>
+                <h3>Shipping/Billing Address</h3>
+                <div id="shop"></div>
+                <input id="t" type="submit" value="Change"  onclick="change()" />
+                <hr />
+              </div>
+
+              <br />
+              <hr />
+            </div>
+          </form>
+          <h3>Payment Details</h3>
+          <hr />
+          <h3>Payment Method</h3>
+          <hr />
+          <div id="lower">
+            <div id="payment">
+              <input
+                type="submit"
+                value="Credit / Debit card"
+                id="btn"
+                onclick="debit()"
+              />
+              <br />
+
+              <input type="submit" value="Net Bankining" id="btn" /> <br />
+              <input type="submit" value="UPI" id="btn" /> <br />
+              <input type="submit" value="Google Pay" id="btn" /> <br />
+              <input type="submit" value="Wallet" id="btn" /> <br />
+              <input type="submit" value="Gift Card" id="btn" /> <br />
+              <input type="submit" value="Loyalty Points" id="btn" /> <br />
+              <input type="submit" value="EMI" id="btn" /> <br />
+            </div>
+
+            <form id="cartform">
+              <div id="type">
+                <h3>Enter your card details</h3>
+
+                <label for=""> Card Number*</label> <br />
+                <!-- <input type="text" placeholder="Card Number" id="number" />
+                <br /> -->
+
+                <input
+                  type="text"
+                  maxlength="16"
+                  id="number"
+                  placeholder="Card Number"
+                />
+                <br />
+
+                <label for=""> Name on Card*</label> <br />
+                <input type="text" placeholder="Name on Card"  id="Name"/>
+                <br />
+
+                <!-- <div id="expire"> -->
+                <label for="">Expires On</label>
+                <br />
+                <select>
+                  <option value="">Month</option>
+                  <option value="">01-Jan</option>
+                  <option value="">02-Feb</option>
+                  <option value="">03-Mar</option>
+                  <option value="">04-Apr</option>
+                  <option value="">05-May</option>
+                  <option value="">06-June</option>
+                  <option value="">07-July</option>
+                  <option value="">08-Aug</option>
+                  <option value="">09-Sep</option>
+                  <option value="">10-Oct</option>
+                  <option value="">11-Nov</option>
+                  <option value="">12-Dec</option>
+                </select>
+
+                <select>
+                  <option value="">2021</option>
+                  <option value="">2022</option>
+                  <option value="">2023</option>
+                  <option value="">2024</option>
+                  <option value="">2025</option>
+                  <option value="">2026</option>
+                  <option value="">2027</option>
+                  <option value="">2028</option>
+                  <option value="">2029</option>
+                  <option value="">2023</option>
+                </select>
+
+                <input id="cvv" type="text" placeholder="CVV" maxlength="3" />
+
+                <p>Be quick be Safe. Save your card details</p>
+                <br />
+
+                <input type="submit" value="Pay Now" id="button" />
+               
+     
+              
+              </div>
+            </form>
+
+            
+          </div>
+                    <div id="otpform"></div>
+         
+       
+
+        </div>
+        <div id="right">
+          <h3>Order Summary</h3>
+          <hr />
+
+          <p>Oty</p>
+          <p>Size</p>
+
+          <hr />
+          <p>Sub Total :</p>
+          <hr />
+          <p>Total</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+
+    <footer>
+       <div class="footer-content">
+           <div>
+               <p>Let Us Help You</p>
+               <ul>
+                   <li>Order Tracking</li>
+                   <li>Bulk Orders</li>
+                   <li>Store Locator</li>
+                   <li>Franchise Form</li>
+                   <li>Furniture Warranty Policy</li>
+               </ul>
+           </div>
+           <div>
+               <p>Support</p>
+               <ul>
+                   <li>Customer Service</li>
+                   <li>How To Order</li>
+                   <li>Billing And Payments</li>
+                   <li>Shipping And Delivery</li>
+                   <li>Returns And Exchanges</li>
+                   <li>FAQs</li>
+               </ul>
+           </div>
+           <div>
+               <p>Company</p>
+               <ul>
+                   <li>About Us</li>
+                   <li>Style Guides</li>
+                   <li>Contact Us</li>
+                   <li>Careers</li>
+                   <li>Privacy Policy</li>
+                   <li>Terms Of Use</li>
+                   <li>Business Enquiries</li>
+                   <li>The Fabindia Schools</li>
+               </ul>
+           </div>
+           <div>
+               <p>About Fabindia</p>
+               <ul>
+                   <li>60 Years Of Fabindia</li>
+                   <li>Philosophy</li>
+                   <li>About Fabindia Products</li>
+                   <li>Organic Certification</li>
+                   <li>Fabric Care</li>
+                   <li>FabCafe</li>
+                   <li>Fabfamily- Loyalty Program</li>
+                   <li>Interior Design Solutions</li>
+               </ul>
+           </div>
+           <div>
+               <p>Stay in Touch</p>
+               <div>
+                   <div class="social-icon">
+                       <img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Facebook_svg-128.png" alt="">
+                       <img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Instagram_svg-128.png" alt="">
+                       <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Twitter_glyph_svg-128.png" alt="">
+                    </div>
+                    <div class="social-icon">
+                        <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Pinterest_glyph_svg-128.png" alt="">
+                        <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Linkedin_glyph_svg-128.png" alt="">
+                        <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Youtube_glyph_svg-128.png" alt="">
+                     </div>
+                   <div>
+                       <div>
+                        <img class="appstore-icon" src="https://fabindia-occ-prod.s3.amazonaws.com/import/Newsletter/2019/December/06/app-store.png" alt="apple">
+                       </div>
+                       <div>
+                        <img class="appstore-icon" src="https://fabindia-occ-prod.s3.amazonaws.com/import/Newsletter/2019/December/06/google-play.png" alt="playstore">
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <hr>
+       <div class="footer-bottom">
+           <p>© Copyright 2018 Fabindia.com. All Rights Reserved.</p>
+           <img src="https://www.fabindia.com/file/v4659334362150706955/widget/FabindiaFooter/images/payment-cards-n_1.jpg" alt="pay">
+           
+       </div>
+   </footer>
+   
+
+    </div>
+  </body>
+</html>
+
+<script src="payment2.js"></script>

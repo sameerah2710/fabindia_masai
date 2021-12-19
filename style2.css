@@ -1,0 +1,222 @@
+#header,
+#upper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#imagelogo {
+  height: 50px;
+}
+body {
+  background-color: #f4f2e5;
+  padding: 20px;
+  font-family: "Mulish", sans-serif;
+  font-family: "Unna", serif;
+}
+#upper {
+  margin-bottom: 25px;
+}
+h3 {
+  font-family: "Unna", serif;
+}
+#main,
+#lower {
+  display: flex;
+}
+#left {
+  width: 75%;
+}
+#payment {
+  height: 450px;
+  width: 220px;
+  border-radius: 15px;
+}
+#payment > input {
+  width: 220px;
+  color: #902d35;
+  height: 50px;
+  border: none;
+  background-color: whitesmoke;
+  margin-left: 20px;
+}
+#type {
+  height: 400px;
+  width: 800px;
+  background-color: whitesmoke;
+  padding-left: 30px;
+  margin-left: 40px;
+}
+footer{
+    height: 405px;
+    padding: 30px 0;
+    background-color: #dbd9cd;
+    width: 100%;
+}
+.footer-content{
+display: flex;
+justify-content: space-around;
+margin-bottom: 30px;
+​}
+
+.footer-content div ul{
+    list-style: none;
+    padding:0px
+}
+.footer-content div p {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Unna',serif;margin: 10px 0px;
+}
+.footer-content div ul li{
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 300;
+​
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+​
+}
+.appstore-icon{
+    width: 122px;
+    height: 36px;
+    margin-bottom: 7px;
+}
+.social-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    margin: 5px;
+}
+.social-icon > img{
+    width: 25px;
+    height: 25px;
+}
+section{
+    background-color: #f4f2e5;
+    padding: 40px 50px;
+}
+#right {
+  width: 20%;
+  padding: 30px;
+}
+
+input {
+  /* margin-bottom: 20px; */
+
+  background-color: #f9f8f1;
+  border: 1px solid brown;
+  padding: 5px;
+}
+
+#t {
+  width: 150px;
+  height: 35px;
+  background-color: #000000;
+  color: white;
+}
+
+#btn {
+  background-color: #e5cc76;
+  padding: 5px 15px;
+  border-radius: 7px;
+  height: 40px;
+  border: none;
+  width: 200px;
+}
+#btn:hover,
+#button:hover,
+#otpsubmit:hover,
+#f > input[type="submit"]:hover {
+  background-color: brown;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+#t:hover {
+  font-size: 15px;
+  cursor: pointer;
+}
+#footer > h4 > p {
+  font-size: 10px;
+}
+#font {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+#img {
+  height: 40px;
+  width: 100px;
+}
+#shop {
+  display: flex;
+}
+#shop > p {
+  padding: 10px;
+}
+#number,
+#Name {
+  height: 20px;
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+select,
+#cvv {
+  width: 100px;
+  margin-right: 15px;
+}
+
+#type {
+  padding-top: 15px;
+}
+#otp,
+#otpsubmit {
+  visibility: hidden;
+  margin-left: 30px;
+  width: 150px;
+}
+#button {
+  margin: auto;
+  margin: 30px;
+  background-color: #e5cc76;
+  padding: 5px 15px;
+  border-radius: 7px;
+  height: 40px;
+  width: 100px;
+  border: none;
+}
+
+#otp {
+  margin-left: 450px;
+}
+
+#otpsubmit {
+  background-color: #e5cc76;
+  padding: 5px 15px;
+  border-radius: 7px;
+  height: 40px;
+  border: none;
+  width: 150px;
+  font-size: 15px;
+}
+
+#f {
+  text-align: center;
+}
+#f > input {
+  margin-right: 30px;
+}
+#f > input[type="submit"] {
+  height: 40px;
+  width: 150px;
+  background-color: #e5cc76;
+  border: none;
+  border-radius: 5px;
+}
