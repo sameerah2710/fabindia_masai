@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-In</title>
+    <style>
+        *{
+        background-color: #f4f2e5;
+      }
+    
+      #container {
+        display: grid;
+        margin: auto;
+        width: 50%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 100px);
+        grid-template-areas:
+          "t t t"
+          "l r r"
+          "l r r"
+          "l f f";
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      #top {
+        grid-area: t;
+        text-align: center;
+      }
+      #left {
+        grid-area: l;
+      }
+      #right {
+        grid-area: r;
+      }
+      #right > input {
+        width: 100%;
+        height: 40px;
+      }
+      #right > button {
+        width: 100%;
+        height: 60px;
+        font-size: large;
+        background-color: #e5cc76;
+        border: none;
+      }
+      #forgot {
+        grid-area: f;
+        display: flex;
+        justify-content: space-between;
+      }
+      #forgot>div{
+          display: flex;
+      }
+      #forgot>div:first-child{
+          color: brown;
+      }
+     a{
+         color: brown;
+     }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="top">
+        <h1>Sign In</h1>
+        <hr />
+      </div>
+      <div id="left">
+        <p>Email Address*</p>
+        
+        <br>
+        <p>Password*</p>
+      </div>
+      <div id="right">
+        <input type="text" id="email" />
+        <br />
+        <br />
+        <input type="text" placeholder="Minimum 8 characters" id="pass"/>
+        <br />
+        <br />
+        <button id="submit">Sign In</button>
+      </div>
+      <div id="forgot">
+        <div><p>Forgot Password?</p></div>
+        <div><p>New to Fabindia?</p><a href="signUp.html"><p>Create Account</p></a></div>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+      document.querySelector("button").addEventListener("click", signin)
+   
+    function signin(){
+        var em = document.querySelector("#email").value 
+        var pass = document.querySelector("#pass").value 
+
+        if(em == "admin" && pass == "admin"){
+            window.location.href ="admin.html"
+        }else{
+            var flag = 0;
+           
+               
+                if(em == "shravya" && pass == "shravya"){
+                    alert("Login Successfull")
+                    
+                    flag = 1
+                }
+            }
+            if(flag==0){
+                alert("Wrong Credentials")
+            }
+    
+
+    }
+</script>
