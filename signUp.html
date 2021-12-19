@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up</title>
+    <style>
+      *{
+        background-color: #f4f2e5;
+      }
+        #container{
+           
+            display: grid;
+            width: 50%;
+            margin: auto;
+            font-family: Arial, Helvetica, sans-serif;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(10,100px);
+            
+            grid-template-areas: 
+            "t t t"
+            "l r r"
+            "l r r"
+            "l r r"
+            "l r r"
+            "l r r"
+            "l r r"
+            "b b b"
+            "b b b"
+            "b b b"
+
+        }
+        #top{
+            grid-area: t;
+            text-align: center;
+        }
+        #left{
+            grid-area: l;
+        }
+        #right{
+            grid-area: r;
+        }
+        #right>input{
+            width: 100%;
+            height: 45px;
+        }
+        #right>button{
+            width: 100%;
+            height: 50px;
+            border: none;
+            background-color: #e5cc76;
+        }
+        #bottom{
+            grid-area: b;
+            text-align: center;
+        }
+        #bottom>button{
+            width: 60%;
+            height: 50px;
+        }
+
+
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="top">
+        <h1>Sign Up</h1>
+        <hr />
+      </div>
+      <div id="left">
+        <p>First Name*</p>
+        <br>
+        
+        <p>Last Name*</p>
+        <br>
+        <p>Mobile Number*</p>
+        <br>
+        <p>Email Address*</p>
+        <br>
+        <p>Refferal Code</p>
+        <br>
+        <p>Password*</p>
+        <br>
+        <p>Confirm Password*</p>
+      </div>
+      <div id="right">
+        <input type="text" />
+        <br>
+        <br>
+        <input type="text" />
+        <br>
+        <br>
+        <input type="text" />
+        <br>
+        <br>
+        <input type="text" />
+        <br><br>
+        <input type="text" />
+        <br><br>
+        <input type="text" />
+        <br><br>
+        <input type="text" />
+        <br><br>
+       
+        
+        <button>Submit</button>
+        <p>By creating an account, you agree to Fabindia`s terms of use and privacy policy</p>
+      </div>
+      <div id="bottom">
+          <hr>
+          <h3>Already have an account?</h3>
+          <button onclick="signin()">Sign In</button>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+    function signin(){
+        window.location.href = "signIn.html"
+    }
+</script>
