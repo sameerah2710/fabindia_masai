@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>payment page</title>
+    <link rel="stylesheet" href="payment.css" />
+    <script
+  src="https://kit.fontawesome.com/683b4b40e3.js"
+  crossorigin="anonymous"
+></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unna:ital@1&display=swap" rel="stylesheet">
+
+
+
+
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="header">
+        <img
+          id="imagelogo"
+          src="https://www.fabindia.com/file/v8385693196996654632/general/fab_india_logo.png"
+          alt=""
+        />
+        
+        <p> <i class="fas fa-phone-alt"></i>  +918010488888</p>
+      </div>
+      <hr />
+      <div id="main">
+        <div id="left">
+          <div id="upper">
+            <h3>Login Detail</h3>
+            <br />
+            <hr />
+            <h3>Shipping/Billing Address</h3>
+            <hr />
+          </div>
+          <div id="lower">
+         <form  id="myform">
+            <div class="detail">
+                
+              <label for="Pin/Zip Code">Pin/Zip Code *</label> <br />
+              <input type="text " placeholder="Enter Pin/Zip Code"  id="pin"/> <br />
+
+              <label for="State/Region"> State * </label><br />
+              <select id="select1">
+                <option value="">State/Region</option>
+                <option value="AN">Andaman and Nicobar Islands</option>
+                <option value="AP">Andhra Pradesh</option>
+                <option value="AR">Arunachal Pradesh</option>
+                <option value="AS">Assam</option>
+                <option value="BR">Bihar</option>
+                <option value="CH">Chandigarh</option>
+                <option value="CT">Chhattisgarh</option>
+                <option value="DN">Dadra and Nagar Haveli</option>
+                <option value="DD">Daman and Diu</option>
+                <option value="DL">Delhi</option>
+                <option value="GA">Goa</option>
+                <option value="GJ">Gujarat</option>
+                <option value="HR">Haryana</option>
+                <option value="HP">Himachal Pradesh</option>
+                <option value="JK">Jammu and Kashmir</option>
+                <option value="JH">Jharkhand</option>
+                <option value="KA">Karnataka</option>
+                <option value="KL">Kerala</option>
+                <option value="LD">Lakshadweep</option>
+                <option value="MP">Madhya Pradesh</option>
+                <option value="MH">Maharashtra</option>
+                <option value="MN">Manipur</option>
+                <option value="ML">Meghalaya</option>
+                <option value="MZ">Mizoram</option>
+                <option value="NL">Nagaland</option>
+                <option value="OR">Orissa</option>
+                <option value="PY">Pondicherry</option>
+                <option value="PB">Punjab</option>
+                <option value="RJ">Rajasthan</option>
+                <option value="SK">Sikkim</option>
+                <option value="TN">Tamil Nadu</option>
+                <option value="TS">Telangana</option>
+                <option value="TR">Tripura</option>
+                <option value="UT">Uttarakhand</option>
+                <option value="UP">Uttar Pradesh</option>
+                <option value="WB">West Bengal</option>
+              </select>
+              <br />
+
+              <label for="First Name*">First Name*</label><br />
+              <input type="text " placeholder="First Name" id="name"/> <br />
+
+              <label for="Address Line">Address Line 1*</label><br />
+              <input type="text " placeholder="Address Line 1" id="address" /> <br />
+
+              <label for="Mobile">Mobile *</label><br />
+              <input type="number" placeholder="Mobile" id="mobile" /> <br />
+            
+            </div>
+
+            <div class="detail">
+                
+              <label for=" Country"> Country *</label><br />
+              <select id="select2">
+                <option value="">country</option>
+                <option value="Albania">Albania</option>
+                <option value="Andorra">Andorra</option>
+                <option value="Bahamas">Bahamas</option>
+                <option value="	Brazil">Brazil</option>
+                <option value="	Cambodia">Cambodia</option>
+                <option value="Colombia">Colombia</option>
+                <option value="	Egypt">Egypt</option>
+                <option value="	Finland">Finland</option>
+                <option value="	Iceland">Iceland</option>
+                <option value="	India">India</option>
+                <option value="	Kenya">Kenya</option>
+                <option value="Maldives">Maldives</option>
+                <option value="	Mexico">Mexico</option>
+                <option value="New Zealand">New Zealand</option>
+                <option value="Russia">Russia</option>
+                <option value="	Singapore">Singapore</option>
+                <option value="	Yemen">Yemen</option>
+                <option value="ZW">Zimbabwe</option>
+                <option value="ZM">Zambia</option>
+                <option value="VG">Virgin Islands (British)</option>
+                <option value="VI">Virgin Islands</option>
+                <option value="VN">Vietnam</option>
+              </select>
+              <br />
+
+              <label for=" City">City * </label><br />
+              <input type="text " placeholder="City" id="city" required /> <br />
+
+              <label for="Last Name">Last Name *</label><br />
+              <input type="text " placeholder="Last Name" id="last"/> <br />
+
+              <label for="Address Line 2">Address Line 2*</label><br />
+              <input type="text " placeholder="Address Line 2" id="address2"/> <br />
+
+                      <input   id="btn"   type="submit" value="Save and Continue">
+         
+            </div>
+   </form>
+ 
+          </div>
+          </div><hr>
+          <div id="right">
+        <h3>Order Summary</h3>
+            <hr />
+
+            <p>Oty</p>
+            <p>Size</p>
+
+            <hr />
+            <p>Sub Total :</p>
+            <hr />
+            <p>Total</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <h2>Payment details</h2>
+    <div id="footer">
+      <!-- <div>
+      <h3>Let Us Help You</h3>
+      <p>Order Tracking</p>
+      <p>Bulk Orders</p>
+      <p>Store Locator</p>
+      <p>Franchise Form</p>
+      <p>Furniture Warranty Policy</p>
+    
+      </div>
+      
+      <div>
+        <h3>Support</h3>
+        <p>Customer Service</p>
+        <p>How To Order</p>
+        <p>Billing And Payments</p>
+        <p>Shipping And Delivery</p>
+        <p>Returns And Exchanges</p>
+        <p>FAQs</p>
+      </div>
+      <div>
+        <h3>Company</h3>
+        <p>About Us</p>
+        <p>Style Guides</p>
+        <p>Contact Us</p>
+        <p>Careers</p>
+        <p>Privacy Policy</p>
+        <p>Terms Of Use</p>
+        <p>Business Enquiries</p>
+        <p>The Fabindia Schools  </p>
+      </div>
+      <div>
+         <h3>About Fabindia</h3>
+        <p>60 Years Of Fabindia</p>
+        <p>Philosophy</p>
+        <p>About Fabindia Products</p>
+        <p>Organic Certification</p>
+        <p>Fabric Care</p>
+        <p>FabCafe</p>
+        <p>Fabfamily- Loyalty Program</p>
+        <p>Interior Design Solutions</p>
+      </div>
+      <div>
+          <h4>Stay in Touch</h4>
+        <div id="font">
+          <p><i class="fab fa-facebook-square"></i></p>
+          <p><i class="fab fa-twitter-square"></i></p>
+          <p><i class="fab fa-instagram"></i></p>
+        </div>
+        <div id="font">
+          <p><i class="fab fa-linkedin-in"></i></p>
+          <p><i class="fab fa-pinterest-square"></i></p>
+          <p><i class="fab fa-google-plus-g"></i></p>
+        </div>
+          <img
+          src="https://fabindia-occ-prod.s3.amazonaws.com/import/Newsletter/2019/December/06/app-store.png"
+          alt=""
+          id="img"
+        />
+        <br />
+
+        <img
+          src="https://fabindia-occ-prod.s3.amazonaws.com/import/Newsletter/2019/December/06/google-play.png"
+          alt=""
+          id="img"
+        />
+      </div>
+     <hr>
+    </div> -->
+
+
+
+          <footer>
+       <div class="footer-content">
+           <div>
+               <p>Let Us Help You</p>
+               <ul>
+                   <li>Order Tracking</li>
+                   <li>Bulk Orders</li>
+                   <li>Store Locator</li>
+                   <li>Franchise Form</li>
+                   <li>Furniture Warranty Policy</li>
+               </ul>
+           </div>
+           <div>
+               <p>Support</p>
+               <ul>
+                   <li>Customer Service</li>
+                   <li>How To Order</li>
+                   <li>Billing And Payments</li>
+                   <li>Shipping And Delivery</li>
+                   <li>Returns And Exchanges</li>
+                   <li>FAQs</li>
+               </ul>
+           </div>
+           <div>
+               <p>Company</p>
+               <ul>
+                   <li>About Us</li>
+                   <li>Style Guides</li>
+                   <li>Contact Us</li>
+                   <li>Careers</li>
+                   <li>Privacy Policy</li>
+                   <li>Terms Of Use</li>
+                   <li>Business Enquiries</li>
+                   <li>The Fabindia Schools</li>
+               </ul>
+           </div>
+           <div>
+               <p>About Fabindia</p>
+               <ul>
+                   <li>60 Years Of Fabindia</li>
+                   <li>Philosophy</li>
+                   <li>About Fabindia Products</li>
+                   <li>Organic Certification</li>
+                   <li>Fabric Care</li>
+                   <li>FabCafe</li>
+                   <li>Fabfamily- Loyalty Program</li>
+                   <li>Interior Design Solutions</li>
+               </ul>
+           </div>
+           <div>
+               <p>Stay in Touch</p>
+               <div>
+                   <div class="social-icon">
+                       <img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Facebook_svg-128.png" alt="">
+                       <img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Instagram_svg-128.png" alt="">
+                       <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Twitter_glyph_svg-128.png" alt="">
+                    </div>
+                    <div class="social-icon">
+                        <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Pinterest_glyph_svg-128.png" alt="">
+                        <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Linkedin_glyph_svg-128.png" alt="">
+                        <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Youtube_glyph_svg-128.png" alt="">
+                     </div>
+                   <div>
+                       <div>
+                        <img class="appstore-icon" src="https://fabindia-occ-prod.s3.amazonaws.com/import/Newsletter/2019/December/06/app-store.png" alt="apple">
+                       </div>
+                       <div>
+                        <img class="appstore-icon" src="https://fabindia-occ-prod.s3.amazonaws.com/import/Newsletter/2019/December/06/google-play.png" alt="playstore">
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <hr>
+       <div class="footer-bottom">
+           <p>© Copyright 2018 Fabindia.com. All Rights Reserved.</p>
+           <img src="https://www.fabindia.com/file/v4659334362150706955/widget/FabindiaFooter/images/payment-cards-n_1.jpg" alt="pay">
+           
+       </div>
+   </footer>
+   
+      
+      </div>
+      
+  </body>
+</html>
+
+           
+
+<Script src="pay.js">
+
+</Script>

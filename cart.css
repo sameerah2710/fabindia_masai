@@ -1,0 +1,203 @@
+#middle {
+  display: flex;
+}
+#cartitem {
+  width: 75%;
+}
+#cartdetail > div {
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  margin-bottom: 28px;
+  height: 30px;
+  width: 280px;
+}
+input[type="submit"] {
+  height: 40px;
+  width: 280px;
+  background-color: #e5cc76;
+  border: none;
+}
+p {
+  font-weight: bold;
+}
+#itemofcart {
+  padding: 20px;
+ display: grid;
+ grid-template-columns: repeat(5,120px);
+ grid-template-rows: repeat(1, 120px);
+  grid-gap: 45px;
+  width: 80%;
+}
+
+#btn:hover {
+  cursor: pointer;
+  font-size: 15px;
+  background-color: #eec94f;
+}
+#coupen{
+  background-color: #f9f8f1;
+}
+body {
+  background-color: #f4f2e5;
+  font-family: "Mulish", sans-serif;
+  font-family: "Unna", serif;
+}
+
+header {
+  background-color: rgb(216, 224, 224);
+  background-color: #f4f2e5;
+  border-bottom: 2px solid rgb(216, 208, 208);
+}
+.contact {
+  height: 29px;
+  padding: 4px;
+  background-color: #8f2c34;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  line-height: 150%;
+}
+.mainHeader {
+  padding: 25px 50px;
+}
+.mainHeader > div {
+  height: 61px;
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.search-box {
+  display: flex;
+  padding-top: 10px;
+  margin-right: 25px;
+}
+input {
+  height: 28px;
+  width: 300px;
+  background-color: #f9f8f1;
+  padding: 6px 12px;
+  border: none;
+}
+.searchicon {
+  height: 40px;
+  width: 30px;
+  background-color: #f9f8f1;
+ 
+}
+.icons {
+  height: 30px;
+  width: 80%;
+  margin-left: 20%;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.call-icon {
+  width: 22px;
+  height: 20px;
+  background: transparent;
+}
+.cart-icon {
+  width: 23px;
+  height: 20px;
+  background: transparent;
+}
+
+
+/* footer   */
+footer{
+    height: 405px;
+    padding: 30px 0;
+    background-color: #dbd9cd;
+}
+.footer-content{
+display: flex;
+justify-content: space-around;
+margin-bottom: 30px;
+​}
+
+.footer-content div ul{
+    list-style: none;
+    padding:0px
+}
+.footer-content div p {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Unna',serif;margin: 10px 0px;
+}
+.footer-content div ul li{
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 300;
+​
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+​
+}
+.appstore-icon{
+    width: 122px;
+    height: 36px;
+    margin-bottom: 7px;
+}
+.social-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    margin: 5px;
+}
+.social-icon > img{
+    width: 25px;
+    height: 25px;
+}
+section{
+    background-color: #f4f2e5;
+    padding: 40px 50px;
+}
+#incr{
+display: flex;
+margin: auto;
+margin-top: 30px;
+}
+#inc,#dec,#point{
+  height: 20px;
+  width: 25px;
+  border: none;
+}
+#itemdetail >p{
+  font-size: 1px;
+}
+#cardimage{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+padding: 25px;
+}
+#log{
+   height: 50px;
+   width: 160px;
+ }
+#item{
+ padding: 22px;
+}
+#Shop{
+
+    background-color: #dbd9cd;
+    height: 40px;
+  width: 220px;
+  border: 1px solid #d6d5d0;
+ 
+ 
+}
+#Sign > p{
+  color: black;
+}
