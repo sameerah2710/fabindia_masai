@@ -1,0 +1,273 @@
+body{
+    margin: 0px;
+    font-family: Muli, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.margin_top{
+    margin-top: 10px;
+}
+header{
+    height: 120px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+header > #head{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+#icon{
+    margin-rights: 0px;
+}
+#icon > img{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#icon > a, .right a{
+    margin-left: 20px;
+}
+#logo{
+    margin-top: 10px;
+    margin-left:200px;
+    padding-top: 0px;
+}
+header > #head > .right{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+header > #head > .right > div > img {
+    margin-left: 20px;
+}
+.right{
+    margin-top: 20px;
+}
+.right > select{
+    height: 20px;
+    letter-spacing: 2px;
+}
+header > #menu{
+    height: 10%;
+    width: 90%;
+    padding: 15px 20px;
+    margin: auto;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+header > #menu > a{
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: black;
+}
+#show{
+    height: 620px;
+}
+#menswear{
+    height: 570px;
+    text-align: center;
+}
+.block_heading{
+    letter-spacing: 4px;
+    font-size: 25px;
+    line-height: 35px;
+    font-family: Unna, serif;
+    font-style: normal;
+    color: #8f2c34;
+}
+#menswear > p{
+    font-family: 'Muli','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-style: italic;
+    color: rgb(71, 70, 70);
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+#menswear > .image_slides{
+    height: 80%;
+    width: 98%;
+    margin: auto;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+#menswear > .image_slides > div{
+    height: 99%;
+    width: 22%;
+}
+#menswear a{
+    text-decoration: none;
+}
+#menswear hr{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+#menswear > .image_slides p{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: Muli, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 4px;
+    color: rgb(71, 70, 70);
+}
+.hov_er:hover{
+    cursor: pointer;
+}
+#offers{
+    height: 500px;
+    background-color: rgb(241,241,241);
+}
+.margin_left{
+    margin-left: 35px;
+}
+#offers > .image_slides{
+    height: 77%;
+    width: 98%;
+    margin: auto;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+#latest{
+    height: 550px;
+    text-align: left;
+}
+#latest > div{
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#latest > div > div{
+    height: 96%;
+    width: 21.5%;
+}
+#suggested{
+    border: 1px transparent black;
+    height: 550px;
+}
+#suggested > div{
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#suggested > div > div{
+    height: 99%;
+    width: 21.5%;
+}
+#trending{
+    height: 700px;
+    background-color: rgb(241,241,241);
+}
+#trending > p{
+    padding-top: 30px;
+    font-family: Muli, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 4px;
+    color: rgb(71, 70, 70);
+}
+#trending > div{
+    height: 79%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#trending > div > div{
+    height: 100%;
+    width: 30%;
+}
+#trending p{
+    font-size: 13px;
+    font-size: 100;
+    line-height: 20px;
+    color: rgb(71, 70, 70);
+}
+.mainpagefooder{
+  width: 100%;
+  height: 700px;
+  background-color: #6f101b;
+}
+.mainPF{
+  height: 30%;
+  text-align: center;
+}
+#fooderinfo{
+  font-family: GothamRnd-Book;
+  font-size: 17px;
+  line-height: 30px;
+  color: #beac83;
+  font-weight: 400;
+}
+#fooderhead{
+  font-family: serif;
+  font-size: 18px;
+  font-weight: 500px;
+  line-height: 35px;
+  color: #ffffff;
+}
+.subscribe{
+  text-align: center;
+  background: #916e5d;
+  padding: 10px;
+  height: 50px;
+  width: 400px;
+  font-family: GothamRnd-Book;
+  font-size: 25px;
+  color: white;
+}
+footer{
+height: 405px;
+padding: 30px 0;
+background-color: #dbd9cd;
+}
+.footer-content{
+display: flex;
+justify-content: space-around;
+margin-bottom: 30px;
+}
+.footer-content div ul{
+    list-style: none;
+    padding: 0px;
+}
+.footer-content div p {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Unna',serif;margin: 10px 0px;
+}
+.footer-content div ul li{
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 300;
+
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+
+}
+.appstore-icon{
+    width: 122px;
+    height: 36px;
+    margin-bottom: 7px;
+}
+.social-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    margin: 5px;
+}
+.social-icon > img{
+    width: 25px;
+    height: 25px;
+}
