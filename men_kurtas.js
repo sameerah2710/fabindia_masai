@@ -1,4 +1,4 @@
-var Kurtas = JSON.parse(localStorage.getItem("menkurtas"));
+ var Kurtas = JSON.parse(localStorage.getItem("menkurtas"));
 document.querySelector("#three_in_row").addEventListener("click", three)
 document.querySelector("#four_in_row").addEventListener("click", four);
 document.querySelector(".searchLogo").addEventListener("click", function(){

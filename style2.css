@@ -57,10 +57,9 @@ display: flex;
 justify-content: space-around;
 margin-bottom: 30px;
 ​}
-
 .footer-content div ul{
     list-style: none;
-    padding:0px
+    padding:0px;
 }
 .footer-content div p {
     font-size: 16px;
