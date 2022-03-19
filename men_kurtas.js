@@ -7,6 +7,7 @@ document.querySelector(".searchLogo").addEventListener("click", function(){
     searchTag.style.borderRadius = "4px";
     setTimeout(() => { searchTag.style.border = "none";  }, 200);
 })
+console.log(Kurtas)
 var singleProductElement;
 three();
 var num;
