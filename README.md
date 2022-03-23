@@ -12,7 +12,8 @@
 
 ### About this project: :raised_hands:
 
-> This is a team project, built by us in the Construct Week - Unit 2 at Masai School.
+<p> Fabindia is an E-commerce website where we can buy clothes made with traditional techniques online. We can filter the dresses by costs, Price Range etc..We can add the items in carts and wishlist then buy the products by checking out.<p/>
+
 
 ---
 
